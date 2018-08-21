@@ -2,7 +2,7 @@ const express = require('express')
 const morgan = require('morgan')
 const path = require('path') // may need this later
 
-const routes = require('./routes') // TODO need to set this path up
+const routes = require('./api') // TODO need to set this path up
 
 // copied the below line.  Maybe need explained
 app.use(morgan('      ↓ received :method :url · responded :status :res[Content-Type]'))
